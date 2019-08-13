@@ -1,22 +1,115 @@
-<svg id="book" xmlns="http://www.w3.org/2000/svg" width="593.969" height="639" viewBox="0 0 593.969 639">
+<svg id="Header" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="444" height="642" viewBox="0 0 444 642">
   <defs>
     <style>
       .cls-1 {
-        fill: #44444f;
+        fill: #536472;
+        filter: url(#filter);
       }
 
       .cls-2 {
-        fill: #65e496;
+        fill: #5189a0;
+      }
+
+      .cls-12, .cls-2, .cls-8 {
         fill-rule: evenodd;
       }
 
       .cls-3 {
+        fill: #65e47d;
+        filter: url(#filter-2);
+      }
+
+      .cls-4, .cls-5 {
+        font-size: 18px;
+      }
+
+      .cls-4, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-11, .cls-4, .cls-5, .cls-6 {
+        font-family: "Roboto Slab";
+      }
+
+      .cls-10, .cls-5, .cls-8 {
+        fill: #65e496;
+      }
+
+      .cls-6 {
+        font-size: 48px;
+      }
+
+      .cls-11, .cls-6 {
+        font-weight: 700;
+      }
+
+      .cls-12, .cls-7 {
+        fill: #44444f;
+      }
+
+      .cls-9 {
         fill: #3d3d47;
       }
+
+      .cls-11 {
+        font-size: 28px;
+        text-anchor: middle;
+        fill: #fefefe;
+      }
     </style>
+    <filter id="filter" x="-215" y="-257" width="1600" height="1060" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="-215" y="-257" width="1600" height="1060" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMDYwIiB2aWV3Qm94PSIwIDAgMTYwMCAxMDYwIj4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeTE9IjY4LjEyIiB4Mj0iMTYwMCIgeTI9Ijk5MS44OCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9Ik5hTiIgc3RvcC1jb2xvcj0iIzU0YjdhMSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IkluZmluaXR5IiBzdG9wLWNvbG9yPSIjNDI2Mzg0Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSIxNjAwIiBoZWlnaHQ9IjEwNjAiLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="499" y="418" width="250" height="50" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="2" in="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood result="flood" flood-color="#65e47d" flood-opacity="0.5"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feImage preserveAspectRatio="none" x="499" y="418" width="250" height="48" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjUwIiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMjUwIDQ4Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBvcGFjaXR5OiAwLjc7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSIyNTAiIHkxPSIyNCIgeDI9IjAiIHkyPSIyNCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9Ik5hTiIgc3RvcC1jb2xvcj0iIzY1ZTRjZSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IkluZmluaXR5IiBzdG9wLWNvbG9yPSIjTmFOTmFOTmFOIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSIyNTAiIGhlaWdodD0iNDgiLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+    </filter>
   </defs>
-  <rect id="book-2" data-name="book" class="cls-1" width="444.969" height="639" rx="5" ry="5"/>
-  <path id="Rectangle_10_copy" data-name="Rectangle 10 copy" class="cls-2" d="M591.051,795.046L756.47,629.655a30.747,30.747,0,0,1,43.486,43.479L634.537,838.526A30.747,30.747,0,0,1,591.051,795.046Z" transform="translate(-215 -259)"/>
-  <path id="Rectangle_10_copy_2" data-name="Rectangle 10 copy 2" class="cls-2" d="M510.258,749.231L675.677,583.84a30.747,30.747,0,0,1,43.486,43.479L553.745,792.71A30.747,30.747,0,1,1,510.258,749.231Z" transform="translate(-215 -259)"/>
-  <rect class="cls-3" width="62.719" height="639"/>
+  <rect id="bg" class="cls-1" x="-215" y="-257" width="1600" height="1060"/>
+  <g id="bg_lines" data-name="bg lines">
+    <path id="line" class="cls-2" d="M0-257H1V803H0V-257Z"/>
+    <path id="line_2" data-name="line 2" class="cls-2" d="M130-257h1V803h-1V-257Z"/>
+    <path id="line_2_copy" data-name="line 2 copy" class="cls-2" d="M779-257h1V803h-1V-257Z"/>
+    <path id="line_2_copy_2" data-name="line 2 copy 2" class="cls-2" d="M520-257h1V803h-1V-257Z"/>
+    <path id="line_2_copy_3" data-name="line 2 copy 3" class="cls-2" d="M260-257h1V803h-1V-257Z"/>
+    <path id="line_2_copy_3-2" data-name="line 2 copy 3" class="cls-2" d="M909-257h1V803h-1V-257Z"/>
+    <path id="line_2_copy_3-3" data-name="line 2 copy 3" class="cls-2" d="M649-257h1V803h-1V-257Z"/>
+    <path id="line_2_copy_4" data-name="line 2 copy 4" class="cls-2" d="M390-257h1V803h-1V-257Z"/>
+    <path id="line_2_copy_4-2" data-name="line 2 copy 4" class="cls-2" d="M1039-257h1V803h-1V-257Z"/>
+    <path id="line_2_copy_4-3" data-name="line 2 copy 4" class="cls-2" d="M1169-257h1V803h-1V-257Z"/>
+  </g>
+  <g id="Top_section" data-name="Top section">
+    <g id="text_content" data-name="text content">
+      <g id="button">
+        <rect class="cls-3" x="499" y="418" width="250" height="48" rx="3" ry="3"/>
+        <text id="Buy_this_book_-_15.00_" data-name="Buy this book - $15.00 " class="cls-4" x="524.502" y="448">Buy this book - $15.00	</text>
+      </g>
+      <text id="A_room_without_books_is_like_a_body_without_a_soul" data-name="A room without books is like a body without a soul" class="cls-5" x="500.086" y="135.662">A room without books is like a body without a soul</text>
+      <text id="title" class="cls-6" x="497.999" y="62">BUKEE: THE BOOK</text>
+    </g>
+    <g id="book">
+      <rect id="book-2" data-name="book" class="cls-7" y="2" width="444.969" height="639" rx="5" ry="5"/>
+      <path id="Rectangle_10_copy" data-name="Rectangle 10 copy" class="cls-8" d="M376.051,538.046L541.47,372.655a30.747,30.747,0,0,1,43.486,43.479L419.537,581.526A30.747,30.747,0,1,1,376.051,538.046Z"/>
+      <path id="Rectangle_10_copy_2" data-name="Rectangle 10 copy 2" class="cls-8" d="M295.258,492.231L460.677,326.84a30.747,30.747,0,0,1,43.486,43.479L338.745,535.71A30.747,30.747,0,1,1,295.258,492.231Z"/>
+      <rect class="cls-9" y="2" width="62.719" height="639"/>
+    </g>
+  </g>
+  <g id="Navigation">
+    <rect class="cls-10" x="476" y="-179" width="48" height="3"/>
+  </g>
+  <g id="Logo">
+    <text id="BUKEE" class="cls-11" x="88" y="-184">BUK<tspan class="cls-10">EE</tspan></text>
+    <g id="logo_icon" data-name="logo icon">
+      <path id="Rectangle_10_copy_3" data-name="Rectangle 10 copy 3" class="cls-8" d="M28-179L0-207H28v28Z"/>
+      <path class="cls-12" d="M28-207L0-179v-28H28Z"/>
+    </g>
+  </g>
 </svg>
