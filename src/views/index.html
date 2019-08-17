@@ -70,7 +70,7 @@
             <div class="wrap">
                 <div class="block-author">
                     <div class="block-text">
-                        <p class="block-text__name block-text__name-top">- Book Author</h4>
+                        <p class="block-text__name block-text__name_top">- Book Author</h4>
                         <h2 class="block-text__title">Emma Anderson <span>A room without books is like a body without a soul</span></h2>
                         <p class="block-text__desc">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
@@ -106,54 +106,43 @@
                 
         <div class="page page-grey">
             <div class="wrap">
-                <div class="block-title">
-                    <div class="title">
-                        <h2 class="title__name">Book Contents</h2>
-                        <p class="title__text">Let’s see what we have covered in the book</p>
-                    </div>
-                </div>
+                <h2 class="page__title">Book Contents</h2>
+                <p class="page__subtitle">Let’s see what we have covered in the book</p>
     
                 <div class="block-about">
-                    <div class="about">
-                        <h3 class="about__title">About the book</h3>
-                        <p class="about__text">
+                    <div class="block-about-text">
+                        <h3 class="block-about-text__title">About the book</h3>
+                        <p class="block-about-text__desc">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.                     
                         </p>
-
-                        <div class="block-links">
-                            <h4 class="block-links__title">Featured in:</h4>
-                                <ul class="links">
-                                    <li class="links__item"><a href="#"></a></li>
-                                    <li class="links__item"><a href="#"></a></li>
-                                    <li class="links__item"><a href="#"></a></li>
-                                </ul>
+                        <div class="block-about-text__subtitle">
+                            <p>Featured in:</p>
+                            <ul class="">
+                                <li class="__item"><a href="#"></a></li>
+                                <li class="__item"><a href="#"></a></li>
+                                <li class="__item"><a href="#"></a></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-    
-                <div class="block-contents-list">
-                    <div class="list">
-                        <h3 class="list__title">Table of contents</h3>
-                        <div class="content-list">
-                                <ol class="content">
-                                    <li class="content__item">Lorem ipsum dolor sit amet</li>
-                                    <li class="content__item">Consectetur adipisicing elit</li>
-                                    <li class="content__item">Labore et dolore magna</li>
-                                    <li class="content__item">Consectetur adipisicing elit</li>
-                                    <li class="content__item">Labore et dolore magna</li>
-                                    <li class="content__item">Lorem ipsum dolor sit amet</li>
-                                    <li class="content__item">Consectetur adipisicing elit</li>
-                                    <li class="content__item">Labore et dolore magna</li>
-                                    <li class="content__item">Consectetur adipisicing elit</li>
-                                    <li class="content__item">Labore et dolore magna</li>
-                                </ol>
-                        </div>
-                        <button class="content__btn">More</button>
+                    <div class="block-about-table">
+                        <h3 class="block-about-table__title">Table of contents</h3>
+                        <ol class="block-about-table__list">
+                            <li class="content__item">Lorem ipsum dolor sit amet</li>
+                            <li class="content__item">Consectetur adipisicing elit</li>
+                            <li class="content__item">Labore et dolore magna</li>
+                            <li class="content__item">Consectetur adipisicing elit</li>
+                            <li class="content__item">Labore et dolore magna</li>
+                            <li class="content__item">Lorem ipsum dolor sit amet</li>
+                            <li class="content__item">Consectetur adipisicing elit</li>
+                            <li class="content__item">Labore et dolore magna</li>
+                            <li class="content__item">Consectetur adipisicing elit</li>
+                            <li class="content__item">Labore et dolore magna</li>
+                        </ol>
+                        <button class="block-about__btn">More</button>
                     </div>
-                </div>
             </div>
         </div>
         @@include("../blocks/modules/footer/footer.html")
