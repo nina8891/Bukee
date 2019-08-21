@@ -25,7 +25,6 @@ body {
     font-family: 'Roboto Slab', serif;
     font-size: 15px;
     line-height: 24px;
-
 }
 
 .wrap {
@@ -59,6 +58,32 @@ body {
         font-size: 18px;
         letter-spacing: 0.9px;
     }
+    &__btn {
+        display: block;
+        background: linear-gradient(to top left, #65e49c, #65e4af);
+        color: $light-color;
+        text-decoration: none;
+        max-width: 250px;
+        border-radius: 3px;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 48px;
+        margin-bottom: 19px;
+        padding: 14px 0;
+        letter-spacing: 0.7px;
+        position: relative;
+        &::before {
+            content: ' ';
+            display: block;
+            height: 20px;
+            width: 100%;
+            border-radius: 3px;
+            background-color: #b2f1be;
+            z-index: -1;
+            bottom: -2px;
+            position: absolute;
+        }
+    }
 }
 
 .header {
@@ -80,6 +105,7 @@ body {
         display: flex;
         justify-content: flex-end;
         font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
         &__item {
             margin-left: 22px;
             padding-bottom: 5px;
@@ -105,12 +131,15 @@ body {
     &__name {
         font-family: 'Open Sans', sans-serif;
         font-size: 18px;
-        letter-spacing: 0.7px;
-        margin-bottom: 30px;
+        letter-spacing: 0.85px;
+        margin-bottom: 43px;
+        margin-top: 1px;
+        margin-left: 4px;
     }
     &__name_top {
         margin-top: 16px;
         margin-left: 0;
+        margin-bottom: 19px;
     }
     &__title {
         font-size: 48px;
@@ -121,7 +150,7 @@ body {
             display: block;
             color: $accent-color;
             font-size: 18px;
-            margin-top: 9px;
+            margin-top: 23px;
             letter-spacing: 0.9px;
         }
     }
@@ -134,7 +163,7 @@ body {
     }
     &__btn {
         display: block;
-        background-color: $accent-color;
+        background: linear-gradient(to top left, #65e49c, #65e4af);
         color: $light-color;
         text-decoration: none;
         max-width: 250px;
@@ -145,6 +174,18 @@ body {
         margin-bottom: 19px;
         padding: 14px 0;
         letter-spacing: 0.7px;
+        position: relative;
+        &::before {
+            content: ' ';
+            display: block;
+            height: 20px;
+            width: 100%;
+            border-radius: 3px;
+            background-color: #b2f1be;
+            z-index: -1;
+            bottom: -2px;
+            position: absolute;
+        }
 
     }
     small {
@@ -159,11 +200,37 @@ body {
     justify-content: flex-start;
     &-demo {
         display: block;
+        position: relative;
         width: 447px;
         height: 643px;
         background-image: url('../img/book.svg');
         background-repeat: no-repeat;
         flex-basis: 500px;
+        &__title {
+            font-size: 36px;
+            text-transform: uppercase;
+            position: absolute;
+            left: 131px;
+            top: 118px;
+            span {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 14px;
+                color: $accent-color;
+                display: block;
+                text-transform: initial;
+                margin-top: 10px;
+                letter-spacing: 0.7px;
+            }
+        }
+        &__author {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            color: $accent-color;
+            position: absolute;
+            bottom: 52px;
+            left: 87px;
+            letter-spacing: 0.7px;
+        }
     }
 }
 
@@ -198,7 +265,7 @@ body {
         display: block;
         font-family: 'Roboto Slab', sans-serif;
         font-size: 80px;
-        font-weight: 100;
+        font-weight: 300;
         color: $accent-color;
         margin-bottom: 45px;
     }
@@ -212,30 +279,17 @@ body {
         margin-bottom: 20px;
         letter-spacing: 1.2px;
     }
-    p {
-        font-family: 'Open Sans', sans-serif;
-        letter-spacing: 0.6px;
-    }
     &-text {
         flex-basis: 41%;
-        &__subtitle {
-            margin-top: 30px;
-            p {
-                font-size: 18px;
-                font-family: 'Roboto Slab', sans-serif;
-                font-weight: 700;
-                letter-spacing: 0.9px;
+        &__desc {
+                font-family: 'Open Sans', sans-serif;
+                letter-spacing: 0.6px; 
             }
-            ul {
-                display: inline-block;
-                list-style-type: none;
-            }
-        }
     }
     &-table {
         flex-basis: 49%;
         &__list {
-            margin: 0;
+            margin: 25px 0 0 0;
             padding: 0;
             counter-reset: list;
             column-count: 2;
@@ -258,7 +312,7 @@ body {
                     line-height: 22px;
                     top: 1px;
                     padding: 0 7px;
-                    background-color:$accent-color;
+                    background-color: #5fc9b3;
                     color: $light-color;
                 }
             }
@@ -267,15 +321,127 @@ body {
     &__btn {
         display: block;
         border: none;
-        padding: 14px 0;
-        margin: 33px 2px;
+        padding: 14px 45px;
+        margin-top: 28px; 
         text-decoration: none;
-        background: $accent-color;
+        background: linear-gradient(to top left, #65e49c, #65e4af);
         color: $light-color;
         text-align: center;
         font-size: 18px;
         font-family: 'Roboto Slab', sans-serif;
-        width: 135px;
         border-radius: 3px;
+        letter-spacing: 0.7px;
+        position: relative;
+        &::before {
+            content: ' ';
+            display: block;
+            height: 20px;
+            width: 100%;
+            border-radius: 3px;
+            background-color: #b2f1be;
+            z-index: -1;
+            bottom: -2px;
+            position: absolute;
+        }
+    }
+    &-social {
+        display: flex;
+        align-items: center;
+        margin-top: 27px;
+        &__title {
+            font-size: 18px;
+            font-family: 'Roboto Slab', sans-serif;
+            font-weight: 700;
+            letter-spacing: 0.9px;
+            }
+        &__list {
+            list-style-type: none;
+            padding-left: 23px;
+            &>li {
+                display: inline-block;
+                font-size: 18px;
+                vertical-align: middle;
+                margin-right: 12px;
+                &>a {
+                    color: $accent-color;
+                }
+            }
+        }
     }
 }
+
+.block-product {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 85px;
+    &-col {
+        flex-basis: calc(30% - 300px);
+    }
+    &-demo {
+        display: block;
+        position: relative;
+        width: 270px;
+        height: 412px;
+        background-image: url('../img/book-min.svg');
+        background-repeat: no-repeat;
+        flex-basis: 280px;
+        &__title {
+            font-size: 24px;
+            text-transform: uppercase;
+            position: absolute;
+            left: 76px;
+            top: 72px;
+            color: #fff;
+            letter-spacing: 0.8px;
+            span {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 12px;
+                color: $accent-color;
+                display: block;
+                text-transform: initial;
+                margin-top: 6px;
+                margin-left: -6px;
+                letter-spacing: 0.7px;
+            }
+        }
+        &__author {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 12px;
+            color: $accent-color;
+            position: absolute;
+            bottom: 29px;
+            left: 73px;
+            letter-spacing: 0.7px;
+        }
+    }
+
+    &-text {
+        margin-top: 32px;
+        text-align: center;
+        &__title {
+            letter-spacing: 1px;
+        }
+        &__text {
+            margin-top: 17px;
+            max-width: 316px;
+        }
+        &__more {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $accent-color;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 800;
+            margin-top: 18px;
+            letter-spacing: 0.8px;
+        }
+    }
+
+    & + .page__btn {
+        display: block;
+        margin: 84px auto 0;
+        padding: 13px 0;
+        max-width: 225px; 
+    }
+}
+
+
