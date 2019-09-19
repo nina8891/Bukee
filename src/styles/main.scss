@@ -102,14 +102,9 @@ body {
         width: 100%;
         z-index: -1;
         min-height: 694px;
-        @media (max-width: 1020px) {
-            display: none;
-        }
     }
     &_carousel {
-        @media (max-width: 1020px) {
-            background-color: $bg-dark-color;
-        }
+        background-color: $bg-dark-color;
     }
 }
 
